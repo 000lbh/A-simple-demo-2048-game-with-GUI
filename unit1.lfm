@@ -1,0 +1,196 @@
+object Form1: TForm1
+  Left = 825
+  Height = 300
+  Top = 245
+  Width = 400
+  BorderStyle = bsDialog
+  Caption = '2048game powered by lbh'
+  ClientHeight = 300
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.10.0'
+  object ButtonStart: TButton
+    Left = 32
+    Height = 34
+    Top = 208
+    Width = 106
+    Caption = 'Start'
+    OnClick = ButtonStartClick
+    TabOrder = 0
+  end
+  object L11: TLabel
+    Left = 80
+    Height = 1
+    Top = 72
+    Width = 1
+    ParentColor = False
+  end
+  object L12: TLabel
+    Left = 144
+    Height = 1
+    Top = 72
+    Width = 1
+    ParentColor = False
+  end
+  object L13: TLabel
+    Left = 208
+    Height = 1
+    Top = 72
+    Width = 1
+    ParentColor = False
+  end
+  object L14: TLabel
+    Left = 272
+    Height = 1
+    Top = 72
+    Width = 1
+    ParentColor = False
+  end
+  object L21: TLabel
+    Left = 80
+    Height = 1
+    Top = 96
+    Width = 1
+    ParentColor = False
+  end
+  object L22: TLabel
+    Left = 144
+    Height = 1
+    Top = 96
+    Width = 1
+    ParentColor = False
+  end
+  object L23: TLabel
+    Left = 208
+    Height = 1
+    Top = 96
+    Width = 1
+    ParentColor = False
+  end
+  object L24: TLabel
+    Left = 272
+    Height = 1
+    Top = 96
+    Width = 1
+    ParentColor = False
+  end
+  object L31: TLabel
+    Left = 80
+    Height = 1
+    Top = 120
+    Width = 1
+    ParentColor = False
+  end
+  object L32: TLabel
+    Left = 144
+    Height = 1
+    Top = 120
+    Width = 1
+    ParentColor = False
+  end
+  object L33: TLabel
+    Left = 208
+    Height = 1
+    Top = 120
+    Width = 1
+    ParentColor = False
+  end
+  object L34: TLabel
+    Left = 272
+    Height = 1
+    Top = 120
+    Width = 1
+    ParentColor = False
+  end
+  object L41: TLabel
+    Left = 80
+    Height = 1
+    Top = 144
+    Width = 1
+    ParentColor = False
+  end
+  object L42: TLabel
+    Left = 144
+    Height = 1
+    Top = 144
+    Width = 1
+    ParentColor = False
+  end
+  object L43: TLabel
+    Left = 208
+    Height = 1
+    Top = 144
+    Width = 1
+    ParentColor = False
+  end
+  object L44: TLabel
+    Left = 272
+    Height = 1
+    Top = 144
+    Width = 1
+    ParentColor = False
+  end
+  object ButtonUP: TButton
+    Left = 213
+    Height = 29
+    Top = 208
+    Width = 27
+    Caption = '^'
+    Enabled = False
+    OnClick = ButtonUPClick
+    TabOrder = 1
+  end
+  object ButtonLEFT: TButton
+    Left = 184
+    Height = 29
+    Top = 240
+    Width = 27
+    Caption = '<'
+    Enabled = False
+    OnClick = ButtonLEFTClick
+    TabOrder = 2
+  end
+  object ButtonRIGHT: TButton
+    Left = 240
+    Height = 29
+    Top = 240
+    Width = 27
+    Caption = '>'
+    Enabled = False
+    OnClick = ButtonRIGHTClick
+    TabOrder = 3
+  end
+  object ButtonDOWN: TButton
+    Left = 213
+    Height = 29
+    Top = 240
+    Width = 27
+    Caption = 'v'
+    Enabled = False
+    OnClick = ButtonDOWNClick
+    TabOrder = 4
+  end
+  object LResult: TLabel
+    Left = 276
+    Height = 1
+    Top = 235
+    Width = 1
+    Font.CharSet = GB2312_CHARSET
+    Font.Color = clRed
+    Font.Height = -15
+    Font.Name = 'Microsoft YaHei UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object ButtonClose: TButton
+    Left = 32
+    Height = 31
+    Top = 248
+    Width = 106
+    Caption = 'Close'
+    OnClick = ButtonCloseClick
+    TabOrder = 5
+  end
+end
